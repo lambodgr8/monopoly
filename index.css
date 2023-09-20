@@ -96,9 +96,7 @@ td div{
 .mono-image{
     position: relative;
 }
-#mono-image{
-    /* position: relative; */
-}
+
 .mono-img1{
     position: absolute;
     transform: rotate(-15deg);
