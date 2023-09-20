@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+table {
+    border-collapse: collapse;
+    background-color: aquamarine;
+    /* width: 25em; */
+    /* height: 20vh; */
+    /* position: relative; */
+}
+tr{
+    border: 2px solid green;
+    height: 7.5vh;
+    position: relative;
+}
+td{
+    border: 4px solid black;
+    width: 3.5em;
+    /* position: absolute; */
+}
+td div{
+    position: absolute;
+}
+.red{
+    position: absolute;
+    width: 3.25em;
+    height: 2vh;
+    background-color: red;
+    bottom: 0;
+    left: 0;
+}
+.yellow{
+    position: absolute;
+    width: 3.2em;
+    height: 2vh;
+    background-color: yellow;
+    bottom: 0;
+    left: 0;
+}
+.orange{
+    position: absolute;
+    width: 1em;
+    height: 6.9vh;
+    background-color: orangered;
+    bottom: 0;
+    right: 0;
+}
+.purple{
+    position: absolute;
+    width: 1em;
+    height: 6.9vh;
+    background-color: purple;
+    bottom: 0;
+    right: 0;
+}
+.lightblue{
+    position: absolute;
+    width: 3.25em;
+    height: 2vh;
+    background-color: blue;
+    bottom: 0;
+    left: 0;
+}
+.brown{
+    position: absolute;
+    width: 3.25em;
+    height: 2vh;
+    background-color: brown;
+    top: 0;
+}
+.green{
+    position: absolute;
+    width: 1em;
+    height: 6.9vh;
+    background-color: green;
+    left: 0;
+    top: 0;
+}
+.blue{
+    position: absolute;
+    width: 10px;
+    height: 6.9vh;
+    background-color: blue;
+    left:0;
+    top: 0;
+}
+.last{
+    width: 5em;
+    height: 13vh;
+}
+.mono-image{
+    position: relative;
+}
+#mono-image{
+    /* position: relative; */
+}
+.mono-img1{
+    position: absolute;
+    transform: rotate(-15deg);
+    top: 2em;
+    left: 1em;
+}
+.img1{
+    width: 9em;
+    /* position: absolute; */
+}
+.mono-img2{
+    position: absolute;
+    transform: rotate(-20deg);
+    bottom: 2em;
+    right: 1em;
+}
+.img2{
+    width: 10em;
+    /* position: absolute; */
+}
+.mono-img3{
+    position: absolute;
+    transform: rotate(-30deg);
+    bottom: 10em;
+    left: 4em;
+}
+.img3{
+    width: 24em;
+    /* position: absolute; */
+}
+/* .monop{
+    width: 75px;
+    height: 50px;
+} */
+#last{
+    background-image: url(./monopoly9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#last1{
+    background-image: url(./monopoly11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#last2{
+    background-image: url(./monopoly12.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 2em;
+    height: 2vh;
+}
+#last3{
+    background-image: url(./monopoly7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con1{
+    background-image: url(./monopoly6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+.box-con2{
+    background-image: url(./monopoly14.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+.box-con3{
+    background-image: url(./monopoly3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con4{
+    background-image: url(./monopoly15.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con5{
+    background-image: url(./monopoly15.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con6{
+    background-image: url(./monopoly14.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con7{
+    background-image: url(./monopoly14.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con8{
+    background-image: url(./monopoly6.jpg);
+    transform: rotate(deg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con9{
+    background-image: url(./monopoly5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con10{
+    background-image: url(./monopoly13.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+.box-con11{
+    background-image: url(./monopoly6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con12{
+    background-image: url(./monopoly14.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con13{
+    background-image: url(./monopoly.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-con14{
+    background-image: url(./monopoly15.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
